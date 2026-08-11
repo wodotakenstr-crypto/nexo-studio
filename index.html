@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="mobile-menu.css" />
+    <link rel="stylesheet" href="catalog.css" />
   </head>
   <body>
     <div class="noise"></div>
@@ -20,6 +21,7 @@
       </a>
       <nav class="desktop-nav" aria-label="Navegacion principal">
         <a href="#soluciones">Soluciones</a>
+        <a href="#proyectos">Proyectos</a>
         <a href="#proceso">Proceso</a>
         <a href="#nosotros">Nosotros</a>
       </nav>
@@ -29,6 +31,7 @@
       </button>
       <nav class="mobile-nav" aria-label="Navegacion movil">
         <a href="#soluciones">Soluciones</a>
+        <a href="#proyectos">Proyectos</a>
         <a href="#proceso">Proceso</a>
         <a href="#nosotros">Nosotros</a>
         <a href="#contacto">Hablemos</a>
@@ -126,6 +129,27 @@
         <div class="sector-tags"><span>Comercio</span><span>Servicios</span><span>Educacion</span><span>Salud</span><span>Logistica</span><span>Fintech</span></div>
       </section>
 
+      <section class="catalog" id="proyectos">
+        <div class="catalog-heading">
+          <div>
+            <p class="eyebrow"><span></span> Proyectos disponibles</p>
+            <h2>Soluciones listas<br />para impulsar tu negocio.</h2>
+          </div>
+          <p>Compra una licencia permanente, descarga tu proyecto y recibe el soporte indicado en cada producto.</p>
+        </div>
+        <article class="product-card">
+          <div class="product-visual"><span>01</span><div class="mini-window"><i></i><i></i><i></i><b>Panel de<br />ventas</b><em>+ 38%</em></div></div>
+          <div class="product-content">
+            <p class="product-type">PROYECTO DE PRUEBA</p>
+            <h3>Gestor de Ventas</h3>
+            <p class="product-description">Una base para administrar clientes, productos y ventas desde un solo lugar. Este producto es solo una muestra del catalogo.</p>
+            <div class="product-details"><span>Licencia permanente</span><span>Descarga digital</span><span>Soporte 30 dias</span></div>
+            <div class="product-buy"><strong>USD 3</strong><button class="test-buy" type="button">Probar compra <span>↗</span></button></div>
+            <p class="purchase-note" aria-live="polite"></p>
+          </div>
+        </article>
+      </section>
+
       <section class="contact" id="contacto">
         <div class="contact-blob"></div>
         <p class="eyebrow"><span></span> El primer paso es simple</p>
@@ -143,5 +167,6 @@
 
     <footer><a class="brand" href="#inicio"><span class="brand-mark"><i></i><i></i><i></i></span>NEXO<span>/</span></a><p>Ideas que se convierten en impacto.</p><span>2026</span></footer>
     <script src="script.js"></script>
+    <script src="catalog.js"></script>
   </body>
 </html>
