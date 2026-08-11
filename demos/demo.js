@@ -1,0 +1,7 @@
+const toast = document.querySelector('.toast');
+function notify(text){toast.textContent=text;toast.hidden=false;setTimeout(()=>toast.hidden=true,2200)}
+document.querySelectorAll('[data-tab]').forEach(button=>button.addEventListener('click',()=>{document.querySelectorAll('[data-tab]').forEach(item=>item.classList.remove('active'));document.querySelectorAll('.app-panel').forEach(panel=>panel.hidden=true);button.classList.add('active');document.querySelector(`#${button.dataset.tab}`).hidden=false}))
+document.querySelectorAll('.station button').forEach(button=>button.addEventListener('click',()=>notify(button.classList.contains('charge')?'Cobro simulado: esta funcion se activa en el programa completo.':'Sesion de prueba iniciada.')))
+document.querySelectorAll('.size-choice').forEach(button=>button.addEventListener('click',()=>{button.classList.toggle('selected');const count=document.querySelectorAll('.size-choice.selected').length;const label=document.querySelector('#selected-count');if(label)label.textContent=`(${count}/11)`}))
+document.querySelectorAll('.drop-zone').forEach(zone=>zone.addEventListener('click',()=>{zone.classList.toggle('active');zone.querySelector('span').textContent=zone.classList.contains('active')?'Pieza seleccionada':'Haz clic para seleccionar'}))
+document.querySelector('#transform-demo')?.addEventListener('click',()=>notify('Transformacion simulada completada. El programa completo genera tus archivos PNG.'))
