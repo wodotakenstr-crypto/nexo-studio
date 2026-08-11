@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="mobile-menu.css" />
     <link rel="stylesheet" href="catalog.css" />
     <link rel="stylesheet" href="catalog-links.css" />
+    <link rel="stylesheet" href="chat.css" />
+    <link rel="stylesheet" href="chat-whatsapp.css" />
   </head>
   <body>
     <div class="noise"></div>
@@ -166,7 +168,18 @@
     </main>
 
     <footer><a class="brand" href="#inicio"><span class="brand-mark"><i></i><i></i><i></i></span>NEXO<span>/</span></a><p>Ideas que se convierten en impacto.</p><span>2026</span></footer>
+    <section class="chat-widget" aria-label="Asistente de Nexo">
+      <div class="chat-panel" id="chat-panel" hidden>
+        <div class="chat-header"><div><span class="chat-status"></span><p>ASISTENTE NEXO</p><strong>Como podemos ayudarte?</strong></div><button class="chat-close" type="button" aria-label="Cerrar chat">×</button></div>
+        <div class="chat-messages" id="chat-messages" aria-live="polite"><div class="chat-message bot">Hola, soy el asistente de Nexo. Puedo orientarte sobre proyectos, licencias y soluciones a medida.</div></div>
+        <div class="chat-options"><button type="button" data-question="Que proyectos tienen?">Ver proyectos</button><button type="button" data-question="Necesito una web a medida">Proyecto a medida</button><button type="button" data-question="Como funciona una licencia?">Sobre licencias</button></div>
+        <form class="chat-form" id="chat-form"><input name="message" autocomplete="off" required maxlength="300" placeholder="Escribe tu consulta..." /><button type="submit" aria-label="Enviar mensaje">↑</button></form>
+        <a class="chat-whatsapp" id="chat-whatsapp" href="https://wa.me/5804125585388?text=Hola%20Nexo%2C%20quiero%20mas%20informacion." target="_blank" rel="noopener">Continuar por WhatsApp <span>↗</span></a>
+      </div>
+      <button class="chat-toggle" id="chat-toggle" type="button" aria-expanded="false" aria-controls="chat-panel"><span>Hablemos</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11.2a7.6 7.6 0 0 1-8 7.2 8.8 8.8 0 0 1-3.4-.7L4 19l1.3-3.2A6.8 6.8 0 0 1 4 11.2 7.6 7.6 0 0 1 12 4a7.6 7.6 0 0 1 8 7.2Z" /></svg></button>
+    </section>
     <script src="script.js"></script>
     <script src="catalog.js"></script>
+    <script src="chat.js"></script>
   </body>
 </html>
