@@ -18,6 +18,9 @@ function replyTo(text) {
   const question = text.toLowerCase();
   if (question.includes('proyecto') || question.includes('venta')) return 'Tenemos Zize Convert y Ciber Control, ademas de soluciones a medida. Puedes ver los detalles en la seccion Proyectos.';
   if (question.includes('licencia') || question.includes('descarga')) return 'Cada proyecto incluye licencia perpetua, descarga digital y soporte. Puedes revisar los detalles antes de comprar.';
+  if (question.includes('soporte')) return 'Cada licencia incluye soporte inicial. El alcance y tiempo exacto aparecen en la ficha del proyecto antes de comprar.';
+  if (question.includes('zize') || question.includes('talla') || question.includes('estampado')) return 'Zize Convert adapta tallas y medidas de modelos para preparar uniformes y estampados antes de imprimirlos.';
+  if (question.includes('ciber')) return 'Ciber Control centraliza equipos, actividades y el estado de tu operacion en un solo panel.';
   if (question.includes('precio') || question.includes('pago') || question.includes('paypal')) return 'Los precios aparecen en cada proyecto. El pago con PayPal se habilitara en cuanto terminemos la prueba del catalogo.';
   if (question.includes('web') || question.includes('app') || question.includes('medida')) return 'Podemos crear paginas web, aplicaciones, sistemas de gestion, automatizaciones y mucho mas. Usa el formulario para contarnos lo que necesitas.';
   return 'Gracias por tu consulta. Para una recomendacion exacta, cuentanos que problema quieres resolver y te orientaremos.';
