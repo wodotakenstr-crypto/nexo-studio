@@ -1,0 +1,13 @@
+import '../styles.css';
+import '../mobile-menu.css';
+import '../catalog.css';
+import '../catalog-links.css';
+import '../catalog-products.css';
+import '../catalog-expand.css';
+import '../purchase-button.css';
+import '../proyectos.css';
+import '../chat.css';
+import '../chat-whatsapp.css';
+import '../demo-button.css';
+import '../demos/demo.css';
+import '../demos/demo-extra.css';
