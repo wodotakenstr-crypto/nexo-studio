@@ -16,8 +16,8 @@ function addMessage(text, role) {
 
 function replyTo(text) {
   const question = text.toLowerCase();
-  if (question.includes('proyecto') || question.includes('venta')) return 'Tenemos soluciones listas y tambien creamos sistemas a medida. Puedes ver el ejemplo Gestor de Ventas en la seccion Proyectos.';
-  if (question.includes('licencia') || question.includes('descarga')) return 'Cada proyecto indica lo que incluye. El ejemplo actual ofrece licencia permanente, descarga digital y 30 dias de soporte.';
+  if (question.includes('proyecto') || question.includes('venta')) return 'Tenemos Zize Convert y Ciber Control, ademas de soluciones a medida. Puedes ver los detalles en la seccion Proyectos.';
+  if (question.includes('licencia') || question.includes('descarga')) return 'Cada proyecto incluye licencia perpetua, descarga digital y soporte. Puedes revisar los detalles antes de comprar.';
   if (question.includes('precio') || question.includes('pago') || question.includes('paypal')) return 'Los precios aparecen en cada proyecto. El pago con PayPal se habilitara en cuanto terminemos la prueba del catalogo.';
   if (question.includes('web') || question.includes('app') || question.includes('medida')) return 'Podemos crear paginas web, aplicaciones, sistemas de gestion, automatizaciones y mucho mas. Usa el formulario para contarnos lo que necesitas.';
   return 'Gracias por tu consulta. Para una recomendacion exacta, cuentanos que problema quieres resolver y te orientaremos.';
