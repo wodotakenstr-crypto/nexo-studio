@@ -18,5 +18,6 @@ import '../case-studies.css';
 import '../custom-services.css';
 import '../navigation-fix.css';
 import '../trust.css';
+import '../support.css';
 import '../demos/demo.css';
 import '../demos/demo-extra.css';
