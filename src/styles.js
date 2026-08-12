@@ -14,5 +14,6 @@ import '../home-commercial.css';
 import '../catalog-assurance.css';
 import '../quote-form.css';
 import '../process-commercial.css';
+import '../case-studies.css';
 import '../demos/demo.css';
 import '../demos/demo-extra.css';
