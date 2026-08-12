@@ -13,5 +13,6 @@ import '../subscription.css';
 import '../home-commercial.css';
 import '../catalog-assurance.css';
 import '../quote-form.css';
+import '../process-commercial.css';
 import '../demos/demo.css';
 import '../demos/demo-extra.css';
