@@ -10,5 +10,6 @@ import '../chat.css';
 import '../chat-whatsapp.css';
 import '../demo-button.css';
 import '../subscription.css';
+import '../home-commercial.css';
 import '../demos/demo.css';
 import '../demos/demo-extra.css';

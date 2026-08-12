@@ -1,0 +1,1 @@
+.button-outline{background:transparent;color:var(--ink);border:1px solid var(--ink)}.hero-proof{font:10px 'DM Mono',monospace;margin:23px 0 0;color:var(--muted)}.hero-proof b{color:var(--ink)}@media(max-width:760px){.hero-actions{align-items:stretch;flex-direction:column;gap:12px}.hero-actions .button{justify-content:space-between}}
