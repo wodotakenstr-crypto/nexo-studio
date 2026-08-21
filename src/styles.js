@@ -21,5 +21,6 @@ import '../trust.css';
 import '../support.css';
 import '../start-here.css';
 import '../crypto-payments.css';
+import '../plan-crypto.css';
 import '../demos/demo.css';
 import '../demos/demo-extra.css';
