@@ -24,5 +24,6 @@ import '../crypto-payments.css';
 import '../plan-crypto.css';
 import '../program-pages.css';
 import '../restaurant-pos.css';
+import '../restaurant-demo.css';
 import '../demos/demo.css';
 import '../demos/demo-extra.css';
